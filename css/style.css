@@ -1,0 +1,414 @@
+/* Common CSS Section 
+================================================*/
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background: url("../images/bg.png"); 
+    font-family: Arial;
+}
+.container{
+    width: 98%;
+    background: #ffffff;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+h3{
+    color: #FF0000; 
+    margin:10px; 
+    line-height: 20px;
+}
+/* Header Section CSS 
+===================================================*/
+header{
+    padding: 10px;
+}
+.row{
+    display: flex; 
+    justify-content:space-around;
+    height: auto; 
+    background: #CECECE; 
+    width: 100%; 
+    margin: 0 auto;
+}
+.footer-social-menu ul,.social-icon ul{
+    display: flex;
+}
+.social-icon ul li{
+    list-style: none;
+    margin:55px 10px 0 10px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 4px rgba(0,0,0,.5);
+}
+.footer-social-menu ul li{
+    list-style: none;
+    margin:15px 10px 0 10px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 4px rgba(0,0,0,.5);
+}
+.footer-social-menu ul li .fa ,.social-icon ul li .fa{
+    font-size: 20px;
+    line-height: 50px;
+    transition: .6s;
+    color: #fff;    
+}
+.footer-social-menu ul li a,.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: .6s;
+}
+.footer-social-menu  ul li a:hover,
+.social-icon ul li a:hover{
+    transform: translate(0,-7px);
+}
+.footer-social-menu ul li:nth-child(1),
+.social-icon ul li:nth-child(1){
+    background: #38539B;
+}
+.footer-social-menu ul li:nth-child(2),
+.social-icon ul li:nth-child(2){
+    background:#3498DB;
+}
+.footer-social-menu ul li:nth-child(3),
+.social-icon ul li:nth-child(3){
+    background: #FF0000;
+}
+.footer-social-menu ul li:nth-child(4),
+.social-icon ul li:nth-child(4){
+     background: #D64C3F;
+    }
+.header-image{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-image img{
+    width: 100%;;
+    height: 100px;
+    margin: 5px;
+}
+.btn{
+    background: #00C851;
+    padding: 10px;
+    margin: 20px 30px 0 0;
+    font-size: 16px;
+    border: 2px solid #00C851 ;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background:tomato;
+    border: 2px solid tomato;
+}
+/* Navbar Section CSS 
+====================================================*/
+nav ul{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background: #E0E0E0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    cursor: pointer;
+  }
+nav ul li{list-style: none;}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px 0 15px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    background: #c7c7c7;
+}
+/* Personal Information section 
+========================================================*/
+#personal-information{
+    width: 100%; 
+    background: #fff; 
+    margin-top: 20px;
+}
+.content{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+/* Left Content CSS
+==================================================== */
+.left-content{
+    width: 30%; 
+    text-align: center; 
+    padding: 5px;
+    margin-right: 10px;
+} 
+.card{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 5px 4px rgba(0,0,0,.5);
+}
+.card-header{
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+    background: #00C851;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.card-body{width: 100%;}
+.card-body img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 29px;
+    padding: 12px;
+}
+/* Right Content Style 
+======================================================*/
+.right-content{
+    width: 70%; 
+    text-align: center; 
+}
+.right-content .card-header{
+    margin-bottom: 5px;
+}
+.right-content .card-body{
+    width: 100%;
+    text-align: left;
+}
+.left-content, 
+.right-content{
+    margin-bottom: 15px;
+}
+table{
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    padding: 11px;
+}
+tr,td{padding: 10px;}
+tr td:nth-child(1),
+tr td:nth-child(3){
+    color: #FE5352;
+}
+tr td:nth-child(2){
+    width: 25%;
+}
+tr:nth-child(even){
+    background: #F2F2F2;
+}
+/* Footer CSS Section 
+==================================================*/
+footer{
+    padding: 10px;
+}
+/* Resources Section CSS 
+===================================================*/
+#resources{
+    width: 100%;
+    height: auto;
+    background: #EAEAEA;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+#resources .content{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+#resources .content h3{
+    color: #FE0F25;
+    font-weight: bolder;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+#resources .content ul li{
+    list-style: none;
+}
+#resources .content ul li a{
+    color: #008000;
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    font-size: 14px;
+}
+#resources .content ul li a:hover{
+    text-decoration: underline;
+}
+/* Description Section CSS 
+=======================================================*/
+#description{
+    width: 100%;
+    height: auto;
+    background: #EAEAEA;
+    padding: 25px 10px 25px 10px;
+}
+#description .description-contents{
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+#description .description-contents .left-contents,
+ #description .description-contents .right-contents{
+   font-size: 14px;
+   padding: 15px;
+   
+}
+#description .description-contents p{
+    word-spacing: 3px;
+    font-size: 14px;
+}
+#description .description-contents a{
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+}
+#description .description-contents .left-contents ul li,
+#description .description-contents .right-contents ul li {
+    display: inline-block;
+}
+#description .description-contents .left-contents ul li a,
+#description .description-contents .right-contents ul li a {
+    color: #5674CD;
+    font-weight: normal;
+    font-style: normal;
+}
+#description .description-contents .left-contents ul li a:hover,
+#description .description-contents .right-contents ul li a:hover,
+.address a:hover {
+    text-decoration: underline;
+}
+/* Contact-Section CSS
+==============================================*/
+#contact-section{
+    width: 100%;
+    height: auto;
+    background: #CCCCCC;
+    padding: 25px 10px 25px 10px;
+}
+#contact-section .contact{
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;  
+}
+.footer-logo{
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FE0F25;
+}
+.footer-image img{
+    width: 100%;
+    height: auto;
+}
+.address{
+    width: 44%;
+    color: #FE3735;
+    font-size: 14px;
+}
+.address a{
+    text-decoration: none;
+    color:  #008000;
+}
+.footer-logo img{
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Section
+================================================ */
+/* @media only screen and (max-width:1300px) {}
+@media only screen and (max-width:992px) {} */
+@media only screen and (max-width:768px) {
+    .row{
+        display: 
+        block;text-align: 
+        center;
+    } 
+    .social-icon ul{
+        align-items: center; 
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .social-icon ul li{
+        margin:45px 10px 0 10px;
+    }
+    .btn{
+        margin: 5px 0px 20px 0px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li:hover{
+        background: #c7c7c7;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left-content, 
+    .right-content{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #resources .content{
+        text-align: center;
+    }
+    #description .description-contents{
+        flex-direction: column; 
+        width: 100%;  
+    }
+    #description .description-contents{
+        text-align: justify;;  
+    }
+    #description .description-contents p{
+        word-spacing: 0px;
+    }
+    #contact-section .contact{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .address {
+        width: 60%;
+        text-align: center;
+    }
+    .footer-logo{
+        flex-direction: column;
+        margin-top: 20px;
+    }  
+}
+@media only screen and (max-width:576px) {
+    tr,td{padding: 0px;} 
+}
+@media only screen and (max-width:300px) {
+    tr,td{padding: 5px;}  
+}
